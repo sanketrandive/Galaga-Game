@@ -1,0 +1,30 @@
+The game has single screen without GUI
+? It displays Player’s ship on the bottom and enemy ships above 					Done
+? Score is displayed on the right side of the screen (for example: “Score: 500”)	Done
+? Player can move left and right with arrow keys and shoot with spacebar			Done	
+? Player has N lives, N is configurable and set to 3 on start						Done
+? Total 5 enemy lines																Done
+? 3 types of AI																		Done
+									
+? Blue
+¦ 2 front lines
+¦ Can’t shoot
+¦ Attacks by flying into Player’s position
+¦ Score point 100
+? Red
+¦ 2 middle lines
+¦ Can shoot N rockets, N is configurable
+¦ Attacks by flying near Player and shooting the rockets
+¦ Score point 200
+? Green
+¦ Last 1 line
+¦ Can shoot energy beam
+¦ Attacks by flying above Player position and shooting energy beam
+¦ Score point 300
+
+? Speed of the enemies is configurable												Done
+? For every killed enemy Player increases score with enemy “Score point”			Done
+? When Player kills all enemies the level reloads and Player can play again.		Done
+? Everytime Player is killed his life-count is decreased by 1.						Done
+? When Player is killed and has 0 lives the game stops and displays “Game Over”.	Done
+? When displayed “Game Over” you can press “spacebar” to restart the game.			Done
